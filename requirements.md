@@ -1,5 +1,8 @@
 # Requirements for Project Auto Installer
 
+## > [!IMPORTANT]
+- Make bash script compatible for debian and arch based distros
+
 - Check and install neovim
 - Install a nerd font based on user input/popular options
 - install zsh/fish and oh-my-<zsh/fish>
