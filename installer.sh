@@ -16,8 +16,10 @@ echo "Hello World!"
 
 PACKAGE="neofetch"
 
-if apt list --installed 2>/dev/null | grep -qw "$PACKAGE"; then
+if apt list --installed | grep -qw "$PACKAGE"; then
 	echo "$PACKAGE is installed."
 else
-	echo "$PACKAGE is not installed."
+	# echo "$PACKAGE is not installed."
+	exec sudo apt install -y $PACKAGE
+	# echo "$PACKAGE installed"
 fi
