@@ -7,3 +7,4 @@
 
 - Create an environment for testing
 
+- Check how to add colors to echo output
