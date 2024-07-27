@@ -9,4 +9,5 @@
    - install a theme accordingly and set .rc file accordingly
 
 - Create an environment for testing
+- Find a way to import and install a user's dotfiles if present.
 
